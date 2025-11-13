@@ -507,8 +507,8 @@ class EnhancedWellnessApp:
         
         # Stress level
         stress_text = self.stress_detector.get_stress_level_text(self.current_stress)
-        stress_color = (0, 255, 0) if self.current_stress < 40 else \
-                      (0, 165, 255) if self.current_stress < 70 else (0, 0, 255)
+        stress_color = (0, 255, 0) if self.current_stress < 30 else \
+                      (0, 165, 255) if self.current_stress < 50 else (0, 0, 255)
         
         cv2.putText(frame, f"Stress: {stress_text} ({self.current_stress})", 
                    (30, 140), cv2.FONT_HERSHEY_SIMPLEX, 0.7, stress_color, 2)

@@ -1,10 +1,5 @@
 timestamp,trigger,ack,blinks_last_min,stress_level,heart_rate,drowsiness_score
-2025-11-12T21:14:43,Low Blink Rate,ack,6,27,92,0
-2025-11-12T21:16:25,Low Blink Rate,ignored,7,34,86,0
-2025-11-12T21:18:11,Low Blink Rate,ack,7,25,104,0
-2025-11-12T21:18:54,Low Blink Rate,ignored,0,25,104,0
-2025-11-12T21:19:24,Low Blink Rate,ignored,0,25,104,0
-2025-11-12T21:19:37,Low Blink Rate,ack,0,25,104,0
-2025-11-12T21:20:24,Low Blink Rate,ignored,0,25,104,0
-2025-11-12T21:20:39,Low Blink Rate,ack,0,25,104,0
-2025-11-12T21:24:08,High Stress Level,ack,40,75,84,3
+2025-11-13T10:59:47,High Stress Level,ack,15,73,71,0
+2025-11-13T11:00:49,Low Blink Rate,ack,7,53,78,0
+2025-11-13T11:01:25,Drowsiness Detected,ack,0,45,78,100
+2025-11-13T11:05:51,Low Blink Rate,ack,0,35,72,0

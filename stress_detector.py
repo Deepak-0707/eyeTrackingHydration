@@ -79,9 +79,9 @@ class StressDetector:
     
     def get_stress_level_text(self, score):
         """Convert stress score to text"""
-        if score < 30:
+        if score < 20:
             return "Low"
-        elif score < 60:
+        elif score < 40:
             return "Medium"
         else:
             return "High"
