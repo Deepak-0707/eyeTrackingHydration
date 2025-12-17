@@ -1,7 +1,7 @@
 import os
 import csv
 
-# Basic Config
+
 BEEP_FILE = "assets/beep.mp3"
 LOG_FILE = "reminder_log.csv"
 MUSIC_FOLDER = "assets/music"
