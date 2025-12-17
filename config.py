@@ -12,7 +12,6 @@ DEFAULT_BLINK_THRESHOLD = 8
 DEFAULT_EAR_THRESHOLD = 0.21
 CONSEC_FRAMES = 3
 
-# NEW: Drowsiness Detection
 DROWSY_EYE_CLOSED_SECONDS = 2.0  # Eyes closed for 2+ seconds = drowsy
 SLEEP_EYE_CLOSED_SECONDS = 4.0   # Eyes closed for 4+ seconds = sleeping
 DROWSY_BEEP_INTERVAL = 3.0       # Beep every 3 seconds when drowsy
