@@ -16,7 +16,6 @@ DROWSY_EYE_CLOSED_SECONDS = 2.0  # Eyes closed for 2+ seconds = drowsy
 SLEEP_EYE_CLOSED_SECONDS = 4.0   # Eyes closed for 4+ seconds = sleeping
 DROWSY_BEEP_INTERVAL = 3.0       # Beep every 3 seconds when drowsy
 
-# NEW: Stress Detection
 STRESS_WINDOW_SECONDS = 10       # Analyze last 10 seconds
 STRESS_HIGH_THRESHOLD = 70       # 70+ = High stress
 STRESS_MEDIUM_THRESHOLD = 40     # 40-70 = Medium stress
@@ -37,5 +36,6 @@ if not os.path.exists(LOG_FILE):
 
 # Create music folder
 os.makedirs(MUSIC_FOLDER, exist_ok=True)
+
 
 
